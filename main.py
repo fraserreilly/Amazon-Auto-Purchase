@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
         total = driver.find_element_by_css_selector(
             "td.grand-total-price").text
-        if float(total.replace("ENTERCURRENCYSYMBOLHERE", "")) > priceLimit:
+        if float(total.replace("£", "")) > priceLimit:
             logger.warning("Item price is too high.")
             break
 
