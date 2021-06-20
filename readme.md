@@ -10,5 +10,5 @@ This script checks if items are available on amazon and purchases them when they
 
 ## Running the script
 - Run `python main.py`. A new headless chrome window will be opened (you can check this by removing `options.headless = True` and logs will be displayed within your terminal.
-- Do whatever you want, the script will run until it's closed, if it crashes it will be displayed in the terminal.
-- If the item is avaiable and purchased it will be displayed in the terminal and the script will close.
+- Do whatever you want, the script will run until it's closed, if it crashes it will be displayed in the cli.
+- If the item is avaiable and purchased it will be displayed in the cli and the script will close.
